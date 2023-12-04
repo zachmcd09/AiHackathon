@@ -1,30 +1,44 @@
 class DashboardComponent extends React.Component {
-    // Implement dashboard functionalities
-        state = { userData: null, studyMaterials: null };
-    
-        componentDidMount() {
-            this.fetchUserData();
-            this.getStudyMaterials();
-        }
-    
-        fetchUserData = async () => {
-            // Implement API call to backend to retrieve user data
-        };
-    
-        getStudyMaterials = async () => {
-            // Implement API call to backend to retrieve study materials
-        };
-    
-        render() {
-            // Render dashboard UI with user data and study materials
-        }
+    constructor(props) {
+      super(props);
+      this.state = {
+        // Initialize state variables here if needed
+      };
     }
     
-}
+    componentDidMount() {
+      // Fetch data from backend when the component mounts (e.g., user progress, upcoming lessons)
+    }
+    
+    render() {
+      return (
+        <div>
+          {/* Render UI elements for dashboard */}
+        </div>
+      );
+    }
+  }
 
-class StudyModuleComponent extends React.Component {
-    // Interactive quizzes and learning tools
-}
+  class StudyModuleComponent extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+        // Initialize state variables here if needed
+      };
+    }
+    
+    componentDidMount() {
+      // Fetch data from backend when the component mounts (e.g., study materials, user preferences)
+    }
+    
+    render() {
+      return (
+        <div>
+          {/* Render UI elements for study modules */}
+        </div>
+      );
+    }
+  }
 
 class UserProfileComponent extends React.Component {
     // User settings and profile management

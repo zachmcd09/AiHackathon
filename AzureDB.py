@@ -3,7 +3,6 @@ def createUserRecord(user_info):
     # Insert user_info into the users table
     # Return confirmation of record creation
 
-
 def updateUserRecord(user_info):
     # Updates existing user information in the database
 
